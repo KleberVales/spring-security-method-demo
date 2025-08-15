@@ -33,6 +33,17 @@ spring-security-method-demo/
 
 ## ⚙️ Configuração de Segurança
 
+O arquivo SecurityConfig.java ativa @EnableMethodSecurity e define usuários em memória:
+
+```java
+@Bean
+public UserDetailsService userDetailsService() {
+    var admin = User.withUsername("admin").password("{noop}admin123").roles("ADMIN").build();
+    var user = User.withUsername("user").password("{noop}user123").roles("USER").build();
+    return new InMemoryUserDetailsManager(admin, user);
+}
+```
+
 ## 📊 Fluxo de Autorização
 
 ```mermaid
