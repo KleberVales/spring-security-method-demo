@@ -71,3 +71,11 @@ flowchart TD
 
 ```
 
+## 🚀 Executando o Projeto
+
+```bash
+
+./gradlew bootRun
+
+```
+
