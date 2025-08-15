@@ -5,6 +5,9 @@ Inclui testes automatizados com MockMvc e usuários mockados para validar o aces
 
 ## 📌 Objetivos
 
+- Ativar segurança em nível de método no Spring Boot.
+- Restringir operações a roles específicas:
+
 ## 📂 Estrutura de Pastas
 
 ```text
