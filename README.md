@@ -46,6 +46,11 @@ public UserDetailsService userDetailsService() {
 
 ## 🛠 Endpoints
 
+| Método |	Endpoint |	Acesso |	Descrição |
+|--------|-----------|---------|-------------|
+| POST	| /products	| ADMIN	| Cria um novo produto |
+| GET	| /products	| USER	| Lista todos os produtos |
+
 ## 📊 Fluxo de Autorização
 
 ```mermaid
