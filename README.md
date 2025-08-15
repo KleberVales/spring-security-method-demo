@@ -9,6 +9,7 @@ Inclui testes automatizados com MockMvc e usuários mockados para validar o aces
 - Restringir operações a roles específicas:
    - Somente ADMIN pode criar produtos.
    - Somente USER autenticado pode listar produtos.
+- Implementar testes de segurança para validar o comportamento.
 
 ## 📂 Estrutura de Pastas
 
