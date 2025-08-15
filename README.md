@@ -20,3 +20,5 @@ spring-security-method-demo/
 └── README.md
 ```
 
+## 📊 Fluxo de Autorização
+
