@@ -44,6 +44,8 @@ public UserDetailsService userDetailsService() {
 }
 ```
 
+## 🛠 Endpoints
+
 ## 📊 Fluxo de Autorização
 
 ```mermaid
