@@ -7,6 +7,8 @@ Inclui testes automatizados com MockMvc e usuários mockados para validar o aces
 
 - Ativar segurança em nível de método no Spring Boot.
 - Restringir operações a roles específicas:
+   - Somente ADMIN pode criar produtos.
+   - Somente USER autenticado pode listar produtos.
 
 ## 📂 Estrutura de Pastas
 
