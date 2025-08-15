@@ -1,5 +1,8 @@
 # Spring Security Method-Level Demo
 
+Este projeto demonstra como aplicar segurança em nível de método usando Spring Security com @EnableMethodSecurity e restrições baseadas em roles (ADMIN e USER).
+Inclui testes automatizados com MockMvc e usuários mockados para validar o acesso.
+
 ## 📂 Estrutura de Pastas
 
 ```text
