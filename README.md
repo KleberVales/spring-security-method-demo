@@ -51,6 +51,12 @@ public UserDetailsService userDetailsService() {
 | POST	| /products	| ADMIN	| Cria um novo produto |
 | GET	| /products	| USER	| Lista todos os produtos |
 
+## 🧪 Testes
+
+- @MockBean para simular ProductService.
+- MockMvc para simular requisições HTTP.
+- Verificação de status HTTP e corpo da resposta.
+
 ## 📊 Fluxo de Autorização
 
 ```mermaid
