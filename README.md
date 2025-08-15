@@ -31,6 +31,8 @@ spring-security-method-demo/
 └── README.md
 ```
 
+## ⚙️ Configuração de Segurança
+
 ## 📊 Fluxo de Autorização
 
 ```mermaid
